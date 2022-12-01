@@ -19,7 +19,7 @@ CREATE TABLE "campaign" (
     "company_name" varchar(100)   NOT NULL,
     "description" text   NOT NULL,
     "goal" numeric(10,2)   NOT NULL,
-    "pledged" numberic(10,2)   NOT NULL,
+    "pledged" numeric(10,2)   NOT NULL,
     "outcome" varchar(50)   NOT NULL,
     "backers_count" int   NOT NULL,
     "country" varchar(10)   NOT NULL,
